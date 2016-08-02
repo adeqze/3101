@@ -1,0 +1,90 @@
+Script started on Tue 22 Sep 2015 05:35:38 PM CDT
++(0):ERROR:0: Unable to locate a modulefile for 'mozilla'
++(0):ERROR:0: Unable to locate a modulefile for 'soft/openoffice'
+noorx004@csel-kh4250-42 (/home/noorx004/3101) % ./l[Kl[Klabv[K1
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+1
+The total of Array: 4506.702148 
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+2
+The total for the weekday: 3130.900635
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+3
+Select the lane you want to calculate for:
+ Please chose a lane between 0 and 4:
+0
+The total for chosen lane is: 125.029968
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+3
+Select the lane you want to calculate for:
+ Please chose a lane between 0 and 4:
+1
+The total for chosen lane is: 937.849792
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+3
+Select the lane you want to calculate for:
+ Please chose a lane between 0 and 4:
+2
+The total for chosen lane is: 1210.120239
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+3
+Select the lane you want to calculate for:
+ Please chose a lane between 0 and 4:
+3
+The total for chosen lane is: 1669.350098
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+3
+Select the lane you want to calculate for:
+ Please chose a lane between 0 and 4:
+4
+The total for chosen lane is: 564.350037
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+3
+Select the lane you want to calculate for:
+ Please chose a lane between 0 and 4:
+5
+Invalid lane Entry, please enter a number between 0 and 4:
+ You will be taken back to the main menu to choose again:
+
+Enter what total you want to calculate as below:
+ Enter 1 to calculate the totals for half a year:
+ Enter 2 to calculate the totals for the weekday totals:
+ Enter 3 to calculate the totals for the a lane:
+ Enter 4 if you want to get out of this program: 
+4
+noorx004@csel-kh4250-42 (/home/noorx004/3101) % exit
+exit
+
+Script done on Tue 22 Sep 2015 05:36:22 PM CDT

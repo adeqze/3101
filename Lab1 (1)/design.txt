@@ -1,0 +1,59 @@
+Program: Lab1
+Author : Mohamed Yunis
+Class  : INET 3101
+Date   : 9/22/2015
+
+
+**************************************
+Program Description
+**************************************
+Program that does computations of 3D arrays.
+The program manipulates three functions to do different computations for 
+a 3D array that holds float data as money. The first dimension represents half a year
+the second dimension represent number of days in a week and the third dimension reperesnts 
+the number of register lanes that exist in this particular store, which is five in this case. 
+
+
+***************************************
+Usage Statement
+**************************************
+-First compile the program by typing: gcc Lab1.c -o lab1
+-Then excute it by typing: ./lab1
+-Then follow the instructions on the screen, the Menu should take you through what you have to 
+do based on what you want to compute.
+
+
+***************************************
+Data Structure Definition for 3D array
+***************************************
+float cashIn [12][7][10]; 
+
+***************************************
+Function definitions
+***************************************
+
+float sumTotal(const float someArray[6][7][5]):
+This function takes a 3D array of float type and computes the total for all elements in array. 
+It returns a value of float. 
+
+Algorithm:The function goes through each element of the array using three for loops and totals up each element
+ 
+float sumWeekday(const float someArray[6][7][5]):
+This function also takes a 3D array of float type and computes the total for only the weekdays. The return value of this function is of type float. 
+
+Algorithm: The function goes through each element of the array using for loops, but skips two days out of all the sets and sums these elements together. 
+
+float sumLane(const float someArray[6][7][5], int n):
+This function takes a 3D array and an integer as parameters. It computes the totals for a specific lane and also returns a value of type float. 
+
+Algorithm: This program goes through the first two sets of each element in the array and choses the third one based on the input of the user (The value of n). Then it totals up all the elements it went through. 
+
+
+
+*******************************************
+Files required/included
+*******************************************
+Lab1.c  : The main program 
+cashIn.h: File containing the data for the 3D array.
+lab1.o  : The excutable created after compiling. 
+project.txt: The file containing the program output from the $script command.
