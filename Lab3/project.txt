@@ -1,0 +1,168 @@
+Script started on Tue 27 Oct 2015 03:33:12 PM CDT
++(0):ERROR:0: Unable to locate a modulefile for 'mozilla'
++(0):ERROR:0: Unable to locate a modulefile for 'soft/openoffice'
+noorx004@csel-kh4250-03 (/home/noorx004/3101/Lab3) % ./lab3 hello.txt
+
+what do you want to do: chose from the options below
+(1): Sorting of file using shell
+(2): Sorting of file using perl Script
+(3): using second perl program to search for word
+(4) Exit
+1
+The user enetered : 1
+Hey you selected to sort file using shell
+Put in the output file you want to save sorted file into
+output
+Sorted file will be written to:  output.txt
+what do you want to do: chose from the options below
+(1): Sorting of file using shell
+(2): Sorting of file using perl Script
+(3): using second perl program to search for word
+(4) Exit
+2
+The user enetered : 2
+you chose to sort file by perl program
+Put in name you want to save file in
+outfile
+what do you want to do: chose from the options below
+(1): Sorting of file using shell
+(2): Sorting of file using perl Script
+(3): using second perl program to search for word
+(4) Exit
+3
+The user enetered : 3
+You chose second perl program
+Below are the words in the file
+hello
+yes
+yellow
+thisboy
+school
+busy
+life
+work
+hectic
+hate
+freedom
+computer
+science
+inet
+UMN
+Minnesota
+Minneapolis
+Saint Paul
+college
+food
+dinining
+draw
+passion
+running 
+exercising
+soccer
+football
+biking
+chairs
+tables
+grocery
+laptop
+CPU
+perfomance
+piping
+shell
+script
+operating
+system
+algorithm
+linux
+Unix
+directory
+file
+Math
+Engineering
+assignment
+projects
+phone
+commmunication
+
+Enter the word you want to search for
+file
+the word entered is: file
+match found on line 44
+what do you want to do: chose from the options below
+(1): Sorting of file using shell
+(2): Sorting of file using perl Script
+(3): using second perl program to search for word
+(4) Exit
+3
+The user enetered : 3
+You chose second perl program
+Below are the words in the file
+hello
+yes
+yellow
+thisboy
+school
+busy
+life
+work
+hectic
+hate
+freedom
+computer
+science
+inet
+UMN
+Minnesota
+Minneapolis
+Saint Paul
+college
+food
+dinining
+draw
+passion
+running 
+exercising
+soccer
+football
+biking
+chairs
+tables
+grocery
+laptop
+CPU
+perfomance
+piping
+shell
+script
+operating
+system
+algorithm
+linux
+Unix
+directory
+file
+Math
+Engineering
+assignment
+projects
+phone
+commmunication
+
+Enter the word you want to search for
+hail
+the word entered is: hail
+Not found
+what do you want to do: chose from the options below
+(1): Sorting of file using shell
+(2): Sorting of file using perl Script
+(3): using second perl program to search for word
+(4) Exit
+4
+The user enetered : 4
+You chose to exit the program
+Bye bye!
+noorx004@csel-kh4250-03 (/home/noorx004/3101/Lab3) % exit
+
+exit
+
+Script done on Tue 27 Oct 2015 03:34:04 PM CDT

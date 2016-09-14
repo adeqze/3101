@@ -1,0 +1,47 @@
+#!/bin/bash
+
+sort_by_shell(){
+echo "Put in the output file you want to save sorted file into"
+read save
+echo "Sorted file will be written to: " $save.txt
+cat ${*} | sort > $save.txt
+}
+
+while true; do
+if [ $# -ne 1 ]; then
+echo "Usage: $0 filename"
+exit 1
+elif [ ! -f $1 ]; then
+echo "The filename $1 doesn't exit"
+exit 1
+else
+
+echo "what do you want to do: chose from the options below"
+echo "(1): Sorting of file using shell"
+echo "(2): Sorting of file using perl Script"
+echo "(3): using second perl program to search for word" 
+echo "(4) Exit"
+fi
+read text
+echo "The user enetered : $text"
+if [ $text -eq 1 ]; then
+echo "Hey you selected to sort file using shell"
+sort_by_shell $1
+elif [ $text -eq 2 ]; then
+echo "you chose to sort file by perl program"
+echo "Put in name you want to save file in"
+read input
+/usr/bin/perl perl_sort1.pl $1 > $input.txt
+elif [ $text -eq 3 ]; then
+echo "You chose second perl program"
+/usr/bin/perl perl_sort2.pl $1
+elif [ $text -eq 4 ]; then
+echo "You chose to exit the program"
+echo "Bye bye!"
+exit 0
+else
+echo "The choice is not recognized program will exit"
+exit 0
+fi;
+done
+

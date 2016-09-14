@@ -1,0 +1,57 @@
+Project: Lab3
+Author : Mohamed Yunis
+Class  : INET 3101
+Date   : 10/27/2015
+
+***************************
+Program Description
+***************************
+A shell script that has three 4 options for sorting a text document with at least fifty words. 
+
+option1: Calls a shell method that sorts this document and puts into another document
+	The user is asked for the name of a file that the sorted content would be saved into. 
+	A file with the sorted words and with the name the user put will be created in the current directory. 
+
+option2: Calls a perl program that sorts this document and puts into another document.
+	Like option 1, the user will be asked to input the name of a file that the sorted words will be put into. 
+	A file with the name the user specified contatining the sorted words will be created in the current working directory. 
+
+option3: Calls a perl program that displays the list of words in the file and ask the use to input the word the user wants to 
+	 search for in the list. If the words the user input is in the list of words, then a match found message and the line number of
+	 the word in the document will be displayed. Else a "Not found" message will be displayed.
+	  
+Option4: Lets the use exit the program if they wish to exit the program. 
+
+The program keeps running in a while loop until the user decides to exit. 
+	 
+
+*********************
+Usage statement
+**********************
+Start the program by typing:
+./lab3 hello.txt
+
+This will run the shell script and you can follow the prompts on the screen. 
+
+Note: hello.txt is the name of the text document with the words. 
+      You can choose to use your own file but just make sure it's in the same directory
+      as the shell script since directory changing is not implemented in this program. 
+
+
+**************************
+Files required/included
+**************************
+lab3 : Main shell script doing the sorting and calling perl programs
+hello.txt: the text words containing the words to be implemented in this project
+perl_sort1: perl program that sorts the document but let's shell program direct to another file for output
+perl_sort2: perl program implments searching for word in file and reporting on its number in file. 
+project.txt: The script recording of the use of the programs.
+Design.txt: This document
+
+
+*****************
+Functions
+*****************
+sort_by_shell: The function implemented by the shell program to sort the document. 
+
+
